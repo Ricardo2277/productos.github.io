@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="css/general.css">
+    <link rel="Stylesheet" href="css/monitores.css">
+    <link rel="preload" href="css/general.css" as="style">
+    <link rel="preload" href="css/monitores.css" as="style">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="barra">
+            <label for="inp-amb">
+                <img src="img/icon-menu.png" class="menu-amb">
+            </label>
+            <input type="checkbox" id="inp-amb" checked hidden>
+            <div class="logo">
+                <a href="../index.html"><img class="logo" src="img/Logotipo.png"></a>
+            </div>
+            <div class="menu">
+                <a href="Productos.html">PRODUCTOS</a>
+                <a href="Ofertas.html">OFERTAS</a>
+                <a href="#">NOTICIAS</a>
+                <a href="#">CONTACTO</a>
+            </div>
+            <div class="login">
+                <h1>Tecno-Link</h1>
+                <a href="../html/login.html"><img src="img/usuario.png"></a>
+
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                                <img src="img/cart.png" id="img-carrito">
+                                <div id="carrito">
+                                        
+                                        <table id="lista-carrito" class="u-full-width">
+                                            <thead>
+                                                <tr>
+                                                    <th>Imagen</th>
+                                                    <th>Nombre</th>
+                                                    <th>Precio</th>
+                                                    <th>Cantidad</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+    
+                                        <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                                        <a href="#" id="vaciar-carrito" class="button u-full-width">Continuar</a>
+                                </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        
+    </header>
+    <section class="sec-s">
+        <div class="slider posicion"></div>
+    </section>
+    <div class="con-t">
+        <p class="titulo">PRODUCTOS</p>
+    </div>
+
+    <section class="sec-1">
+         <label for="cheL" >
+            <input type="checkbox" id="cheL"  hidden >
+            <div class="pro-L" id="proL">
+                <div class="info-L">
+                    <p class="t">Samsung Odyssey G9</p>
+                    <p class="tx">Mod:LC49G95TS</p>
+                    <p class="tx">Pulgadas:49</p>
+                    <p class="tx">Frecuancia:240hz</p>
+                    <a href="../hrml/ver-mas.html">
+                        <input type="button" class="detalles-L"  value="Ver Mas">
+                    </a>
+                </div>
+                <img src="img/productos/monitores/grandes/monitor-L.png">
+            </div>
+         </label>
+         <label for="cheR" >
+            <input type="checkbox" id="cheR"  hidden >
+            <div class="pro-R">
+                <div class="info-R">
+                    <p class="t">HP OMEN X</p>
+                    <p class="tx">Mod:Curvo Omen-X</p>
+                    <p class="tx">Pulgadas:35</p>
+                    <p class="tx">Frecuancia:144hz</p>
+                    <a href="../hrml/ver-mas.html">
+                        <input type="button" class="detalles-R"  value="Ver Mas">
+                    </a>
+                </div>
+                
+                    <img src="img/productos/monitores/grandes/monitor-R.png">
+            </div>
+        </label>
+    </section>
+
+    <section class="sec-2">
+        <div class="iteams">
+           <form action="">
+            <ul class="ul u1">
+                <li class="iteam i1">
+                    <div class="pro-img">
+                        <img src="img/productos/monitores/monitor.webp">
+                        <p class="t">Gigabyte</p> 
+                    </div>
+                    <div class="det-carr">
+                        <a href="#">
+                            <input type="button" class="agregar" value="Agregar">
+                        </a>
+                        
+                        <a href="../hrml/ver-mas.html">
+                            <input type="button" class="detalles" id="pro-v1" value="Ver Mas">
+                        </a>
+                    </div>
+                    <div>
+                    <p class="tx">Mod: 3D54H-Aura</p>
+                    <p class="tx">Pulgadas: 21</p>
+                    <p class="tx">Frecuencia: 144hz</p>
+                    <p class="tx">Proporcion: 21:9</p>
+                    <p class="t-precio" >$3450</p>
+                </div>
+                    <!-- <button class="detalles" id="detalles">Detalles</button> -->
+                </li>
+                <li class="iteam i2">
+                    <div class="pro-img">
+                        <img src="img/productos/monitores/157630-150-auto.png">
+                        <p class="t">AOC</p>
+                    </div>
+                    <div class="det-carr">
+                        <a href="#">
+                            <input type="button" class="agregar"  value="Agregar">
+                        </a>
+                        <a href="../hrml/ver-mas.html">
+                            <input type="button" class="detalles" id="pro-v2" value="Ver Mas">
+                        </a>
+                    </div>
+                    <p class="tx">Mod: 3D54H-E2</p>
+                    <p class="tx">Pulgadas: 24</p>
+                    <p class="tx">Frecuencia: 144hz</p>
+                    <p class="tx">Proporcion: 21:9 Ultrawide</p>
+                    <p class="t-precio" >$4150</p>
+                    
+                </li>
+                <li class="iteam i3">
+                    <div class="pro-img">
+                        <img src="img/productos/monitores/157678-150-auto.png">
+                        <p class="t">Samsung</p>
+                    </div>
+                    <div class="det-carr">
+                        <a href="#">
+                            <input type="button" class="agregar"  value="Agregar">
+                        </a>
+                        <a href="../hrml/ver-mas.html">
+                            <input type="button" class="detalles" id="pro-v3" value="Ver Mas">
+                        </a>
+                    </div>
+                    <p class="tx">Mod: LL54H-A1</p>
+                    <p class="tx">Pulgadas: 26</p>
+                    <p class="tx">Frecuencia: 165hz</p>
+                    <p class="tx">Proporcion: 21:9 Ultrawide</p>
+                    <p class="t-precio" >$4999</p>
+                </li>
+                <li class="iteam i4">
+                    <div class="pro-img">
+                        <img src="img/productos/monitores/kisspng-acer-b6-computer-monitors-4k-resolution-ips-panel-product-display-5b2dc94c5c2e31.2104895115297273083776.png">
+                        <p class="t">AOC</p>
+                    </div>
+                    <div class="det-carr">
+                        <a href="#">
+                            <input type="button" class="agregar" value="Agregar">
+                        </a>
+                        <a href="../hrml/ver-mas.html">
+                            <input type="button" class="detalles" id="pro-v4" value="Ver Mas">
+                        </a>
+                    </div>
+                    <p class="tx">Mod: F-54H-XL</p>
+                    <p class="tx">Pulgadas: 21</p>
+                    <p class="tx">Frecuencia: 70hz</p>
+                    <p class="tx">Proporcion: 16:9</p>
+                    <p class="t-precio" >$2039</p>
+                </li>
+                
+            </ul>
+            <ul class="ul u2">
+                <li class="iteam i1">
+                    <div class="pro-img">
+                    <img src="img/productos/monitores/kisspng-acer-b6-computer-monitors-4k-resolution-ips-panel-product-display-5b2dc94c5c2e31.2104895115297273083776.png"">
+                    <p class="t">AOC</p>
+                    </div>
+                    <div class="det-carr">
+                        <a href="#">
+                            <input type="button" class="agregar"  value="Agregar">
+                        </a>
+                        <a href="../hrml/ver-mas.html">
+                            <input type="button" class="detalles" id="pro-v5" value="Ver Mas">
+                        </a>
+                    </div>
+                    <p class="tx">Mod: F-54H-XL</p>
+                    <p class="tx">Pulgadas: 21</p>
+                    <p class="tx">Frecuencia: 70hz</p>
+                    <p class="tx">Proporcion: 16:9</p>
+                    <p class="t-precio" >$2039</p>
+                </li>
+                <li class="iteam i2">
+                    <div class="pro-img">
+                        <img src="img/productos/monitores/monitor.webp">
+                        <p class="t">Gigabyte</p>
+                    </div>
+                    <div class="det-carr">
+                        <a href="#">
+                            <input type="button" class="agregar"  value="Agregar">
+                        </a>
+                        <a href="../hrml/ver-mas.html">
+                            <input type="button" class="detalles" id="pro-v6" value="Ver Mas">
+                        </a>
+                    </div>
+                    <p class="tx">Mod: 3D54H-Aura</p>
+                    <p class="tx">Pulgadas: 21</p>
+                    <p class="tx">Frecuencia: 144hz</p>
+                    <p class="tx">Proporcion: 21:9</p>
+                    <p class="t-precio" >$3450</p>
+                </li>
+                <li class="iteam i3">
+                    <div class="pro-img">
+                        <img src="img/productos/monitores/mx-ur55-lu28r550uqlxzx-frontblack-248668639.webp">
+                        <p class="t">Samsung</p>
+                    </div>
+                    <div class="det-carr">
+                        <a href="#">
+                            <input type="button" class="agregar"  value="Agregar">
+                        </a>
+                        <a href="../hrml/ver-mas.html">
+                            <input type="button" class="detalles" id="pro-v7" value="Ver Mas">
+                        </a>
+                    </div>
+                    <p class="tx">Mod: LL54H-A1</p>
+                    <p class="tx">Pulgadas: 22</p>
+                    <p class="tx">Frecuencia: 70hz</p>
+                    <p class="tx">Proporcion: 16:9 </p>
+                    <p class="t-precio" >$3144</p>
+                </li>
+                <li class="iteam i4">
+                    <div class="pro-img">
+                        <img src="img/productos/monitores/157678-150-auto.png">
+                        <p class="t">Dell</p>
+                    </div>
+                    <div class="det-carr">
+                        <a href="#">
+                            <input type="button" class="agregar"  value="Agregar">
+                        </a>
+                        <a href="../hrml/ver-mas.html">
+                            <input type="button" class="detalles" id="pro-v8" value="Ver Mas">
+                        </a>
+                    </div>
+                    <p class="tx">Mod: DELL-54-BC</p>
+                    <p class="tx">Pulgadas: 26</p>
+                    <p class="tx">Frecuencia: 144hz</p>
+                    <p class="tx">Proporcion: 19:9 </p>
+                    <p class="t-precio" >$6290</p>
+                </li>
+                
+            </ul>
+            <ul class="ul u3">
+                <li class="iteam i1">
+                    <div class="pro-img">
+                        <img src="img/productos/monitores/mx-ur55-lu28r550uqlxzx-frontblack-248668639.webp">
+                        <p class="t">Samsung</p>
+                    </div>
+                    <div class="det-carr">
+                        <a href="#">
+                            <input type="button" class="agregar"  value="Agregar">
+                        </a>
+                        <a href="../hrml/ver-mas.html">
+                            <input type="button" class="detalles" id="pro-v9" value="Ver Mas">
+                        </a>
+                    </div>
+                    <p class="tx">Mod: LL54H-A1</p>
+                    <p class="tx">Pulgadas: 22</p>
+                    <p class="tx">Frecuencia: 70hz</p>
+                    <p class="tx">Proporcion: 16:9 </p>
+                    <p class="t-precio" >$3144</p>
+                </li>
+                <li class="iteam i2">
+                    <div class="pro-img">
+                        <img src="img/productos/monitores/157630-150-auto.png">
+                        <p class="t">AOC</p>
+                    </div>
+                    <div class="det-carr">
+                        <a href="#">
+                            <input type="button" class="agregar"  value="Agregar">
+                        </a>
+                        <a href="../hrml/ver-mas.html">
+                            <input type="button" class="detalles" id="pro-v10" value="Ver Mas">
+                        </a>
+                    </div>
+                    <p class="tx">Mod: 3D54H-E2</p>
+                    <p class="tx">Pulgadas: 24</p>
+                    <p class="tx">Frecuencia: 144hz</p>
+                    <p class="tx">Proporcion: 21:9 Ultrawide</p>
+                    <p class="t-precio" >$4150</p>
+                </li>
+                <li class="iteam i3">
+                    <div class="pro-img">
+                        <img src="img/productos/monitores/kisspng-acer-b6-computer-monitors-4k-resolution-ips-panel-product-display-5b2dc94c5c2e31.2104895115297273083776.png">
+                        <p class="t">AOC</p>
+                    </div>
+                    <div class="det-carr">
+                        <a href="#">
+                            <input type="button" class="agregar"  value="Agregar">
+                        </a>
+                        <a href="../hrml/ver-mas.html">
+                            <input type="button" class="detalles" id="pro-v11" value="Ver Mas">
+                        </a>
+                    </div>
+                    <p class="tx">Mod: F-54H-XL</p>
+                    <p class="tx">Pulgadas: 21</p>
+                    <p class="tx">Frecuencia: 70hz</p>
+                    <p class="tx">Proporcion: 16:9</p>
+                    <p class="t-precio" >$2039</p>
+                </li>
+                <li class="iteam i4">
+                    <div class="pro-img">
+                        <img src="img/productos/monitores/mx-ur55-lu28r550uqlxzx-frontblack-248668639.webp">
+                        <p class="t">Samsung</p>
+                    </div>
+                    <div class="det-carr">
+                        <a href="#">
+                            <input type="button" class="agregar"  value="Agregar">
+                        </a>
+                        <a href="../hrml/ver-mas.html">
+                            <input type="button" class="detalles" id="pro-v12" value="Ver Mas">
+                        </a>
+                    </div>
+                    <p class="tx">Mod: LL54H-A1</p>
+                    <p class="tx">Pulgadas: 22</p>
+                    <p class="tx">Frecuencia: 70hz</p>
+                    <p class="tx">Proporcion: 16:9 </p>
+                    <p class="t-precio" >$3144</p>
+                </li>
+                
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="logo-f">
+            <a href="../index.html"><img src="img/Logotipo.png" width="120px"></a>
+        </div>
+        <div class="redes-s">
+            <a href="#"><img src="img/facebook.png" width="25px"></a>
+            <a href="#"><img src="img/twitter.png" width="25px"></a>
+            <a href="#"><img src="img/instagram.png" width="25px"></a>
+        </div>
+        <div class="listas">
+            <ul class="ul1">
+                <li >PRODUCTOS</li>
+                <li class="sub-li"><a href="#">PC gaming</a></li>
+                <li class="sub-li"><a href="#">LapTop gaming</a></li>
+                <li class="sub-li"><a href="#">Perifericos</a></li>
+                <li class="sub-li"><a href="Monitores.html">monitores</a></li>
+            </ul>
+            <ul class="ul2">
+                <li>OFERTAS</li>
+                <li class="sub-li"><a href="#">Lo nuevo del dia</a></li>
+                <li class="sub-li"><a href="#">Hasta con 40%</a></li>
+            </ul>
+            <ul class="ul3">
+                <li>NOTICIAS</li>
+                <li class="sub-li"><a href="#">Explorar</a></li>
+                <li class="sub-li"><a href="#">Conoce</a></li>
+                <li class="sub-li"><a href="#">Eventos</a></li>
+            </ul>
+            <ul class="ul4">
+                <li>CONTACTO</li>
+                <li class="sub-li"><a href="index.html">tecnolinkitj@gmail.com</a></li>
+                <li class="sub-li">353-111-2345</li>
+                <li class="sub-li"><a href="#">Soporte</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="padre">
+        <label for="dimencion">
+        <input type="checkbox" name="redimencion" id="dimencion" hidden>
+        
+        <div class="prueba"></div>
+    </label>
+            
+        
+        
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
